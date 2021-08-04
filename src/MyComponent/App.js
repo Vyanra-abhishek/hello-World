@@ -1,10 +1,11 @@
-import react from 'react';
-import Render from './Render'
-const App = () => {
+import react from "react";
+import CustLogin from "./CustLogin";
 
-  return (<>
-    <Render />
-  </>)
-  
-}
+const App = () => {
+  return (
+    <>
+      <CustLogin />
+    </>
+  );
+};
 export default App;
