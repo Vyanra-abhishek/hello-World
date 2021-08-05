@@ -164,6 +164,10 @@
     border-radius: none !important;
 }
 
+.Border:hover {
+    border-color: black;
+}
+
 .Head {
     display: flex;
     font-size: 90%;
