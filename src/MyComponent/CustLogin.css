@@ -52,6 +52,8 @@
     text-align: center;
     height: 100%;
     cursor: pointer;
+    transition: border 0.5s ease-out;
+    border-bottom: 2px solid gray;
 }
 
 .face {
@@ -59,13 +61,14 @@
     justify-content: center;
 }
 
-.controller1 {
+
+/* .controller1 {
     flex: 1;
     text-align: center;
     height: 100%;
     cursor: pointer;
     border-right: 2px solid gray;
-}
+} */
 
 .box-container {
     display: flex;
@@ -89,7 +92,7 @@
     margin-bottom: 17px;
     font-family: Ozxgen, sans-serif;
     font-size: 22px;
-    border-bottom: 2px solid blue;
+    /* border-bottom: 2px solid blue; */
 }
 
 .box {
@@ -134,8 +137,8 @@
 
 .center1 {
     text-align: center;
-    margin-top: 4px;
-    font-size: 20px;
+    /* margin-top: 2px; */
+    font-size: 100%;
 }
 
 .fa {
@@ -148,7 +151,6 @@
 }
 
 .fa-facebook {
-    background: #3B5998;
     color: white;
 }
 
@@ -157,9 +159,14 @@
     color: red;
 }
 
+.Border {
+    border-color: black;
+    border-radius: none !important;
+}
+
 .Head {
     display: flex;
-    font-size: medium;
+    font-size: 90%;
     margin-bottom: 8px;
 }
 
@@ -199,24 +206,25 @@ element.style {
     color: white;
 }
 
-.fa fa-facebook:hover {
+
+/* .fa fa-facebook:hover {
     background-color: #3B5998;
-}
+} */
 
 .Prime {
     background-color: #3B5998;
 }
 
-h5 {
+p {
     text-align: center;
     margin: 18px auto;
     max-width: 550px;
     position: relative;
-    color: gray;
+    color: black;
     font-size: -0.77rem;
 }
 
-h5:before {
+p:before {
     background-color: rgb(182, 174, 174);
     display: block;
     width: 40%;
@@ -228,7 +236,7 @@ h5:before {
     z-index: -1;
 }
 
-h5:after {
+p:after {
     background-color: rgb(182, 174, 174);
     display: block;
     content: "";
@@ -246,4 +254,23 @@ li {
 
 hr {
     margin-top: 10px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+#Flex {
+    display: flex;
+}
+
+.active {
+    cursor: pointer;
+}
+
+.mid {
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    margin-bottom: 2%;
 }
